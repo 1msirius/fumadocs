@@ -2,5 +2,16 @@
   "title": "Python",
   "description": "Python for Data Dcience",
   "icon": "Book",
-  "pages": ["index"]
+  "pages": [
+    "hello-python",
+    "data-types",
+    "control-flow",
+    "functions",
+    "file-handling",
+    "oop",
+    "error-handling",
+    "intermediate-concepts",
+    "advanced-python",
+    "exercises"
+  ]
 }
