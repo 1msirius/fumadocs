@@ -17,5 +17,9 @@ export default {
       },
     },
   },
-  presets: [createPreset()],
+  presets: [
+    createPreset({
+      addGlobalColors: true,
+    }),
+  ],
 };
