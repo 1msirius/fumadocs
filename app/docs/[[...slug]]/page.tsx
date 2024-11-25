@@ -29,6 +29,7 @@ export default async function Page(props: {
       toc={page.data.toc}
       tableOfContent={{
         style: "clerk",
+        single: false,
       }}
       full={page.data.full}
       lastUpdate={lastEdit ?? undefined}
