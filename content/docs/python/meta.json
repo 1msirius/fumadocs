@@ -1,9 +1,10 @@
 {
-  "title": "Python",
-  "description": "Python Libraries",
+  "title": "Python DS101",
+  "description": "Python Data Science",
   "root": true,
   "icon": "Book",
   "pages": [
+    "---Welcome---",
     "index",
     "setup",
     "---Modules---",

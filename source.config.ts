@@ -1,6 +1,7 @@
 import { defineDocs, defineConfig } from 'fumadocs-mdx/config';
 import rehypeKatex from 'rehype-katex';
 import remarkMath from 'remark-math';
+import { remarkMermaid } from "@theguild/remark-mermaid";
 
 export const { docs, meta } = defineDocs({
   dir: 'content/docs',
@@ -8,7 +9,7 @@ export const { docs, meta } = defineDocs({
 
 export default defineConfig({
   mdxOptions: {
-    remarkPlugins: [remarkMath],
+    remarkPlugins: [remarkMath, remarkMermaid],
     rehypePlugins: (v) => [rehypeKatex, ...v],
   },
 });
