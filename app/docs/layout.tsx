@@ -1,16 +1,45 @@
-import type { ReactNode } from 'react'
-import { baseOptions } from '@/app/layout.config'
-import { source } from '@/lib/source'
-import { DocsLayout } from 'fumadocs-ui/layouts/docs'
+import type { ReactNode } from "react";
+import { baseOptions, linkItems } from '@/app/layout.config';
+import { source } from "@/lib/source";
+import { DocsLayout } from "fumadocs-ui/layouts/docs";
+import { Slot } from "@radix-ui/react-slot";
+
+const docsOptions = {
+  ...baseOptions,
+  tree: source.pageTree,
+  links: [linkItems[linkItems.length - 1]],
+  sidebar: {
+    tabs: {
+      transform(option: any, node: any) {
+        const meta = source.getNodeMeta(node);
+        if (!meta) return option;
+        return {
+          ...option,
+          icon: (
+            <Slot
+              className="bg-gradient-to-t from-fd-background/80 p-1 [&_svg]:size-5"
+              style={{
+                color: `#89B4F9`,
+                backgroundColor: `rgba(137, 180, 249, 0.2)`,
+              }}
+            >
+              {node.icon}
+            </Slot>
+          ),
+        };
+      },
+    },
+  },
+};
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <DocsLayout tree={source.pageTree} {...baseOptions}>
+    <DocsLayout {...docsOptions}>
       <span
         className="absolute inset-0 z-[-1] h-[64rem] max-h-screen overflow-hidden"
         style={{
           backgroundImage:
-            'radial-gradient(49.63% 57.02% at 58.99% -7.2%, hsl(var(--primary)/0.1) 39.4%, transparent 100%)',
+            "radial-gradient(49.63% 57.02% at 58.99% -7.2%, hsl(var(--primary)/0.1) 39.4%, transparent 100%)",
         }}
       >
         <svg
@@ -25,7 +54,7 @@ export default function Layout({ children }: { children: ReactNode }) {
           <mask
             id="mask-dark"
             style={{
-              maskType: 'alpha',
+              maskType: "alpha",
             }}
             maskUnits="userSpaceOnUse"
             x="0"
@@ -100,8 +129,7 @@ export default function Layout({ children }: { children: ReactNode }) {
           </defs>
         </svg>
       </span>
-
       {children}
     </DocsLayout>
-  )
+  );
 }

@@ -50,12 +50,12 @@ export const logo = (
   <>
     <Image
       src={LightLogo}
-      className="dark:hidden w-5 md:w-5"
+      className="dark:hidden w-5 md:w-[18px]"
       alt="OpenDeepLearning"
     />
     <Image
       src={DarkLogo}
-      className="hidden dark:flex w-5 md:w-5"
+      className="hidden dark:flex w-5 md:w-[18px]"
       alt="OpenDeepLearning"
     />
   </>
@@ -66,7 +66,7 @@ export const baseOptions: BaseLayoutProps = {
     title: (
       <>
         {logo}
-        <span className="text-[14.5px] font-medium">
+        <span className="text-[14px] font-medium">
           <span>OpenDeepLearning</span>
         </span>
       </>

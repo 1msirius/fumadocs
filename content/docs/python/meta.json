@@ -2,7 +2,7 @@
   "title": "Python DS101",
   "description": "Python Data Science",
   "root": true,
-  "icon": "Book",
+  "icon": "Building2",
   "pages": [
     "---Welcome---",
     "index",
