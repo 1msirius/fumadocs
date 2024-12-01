@@ -6,7 +6,7 @@ import { GeistMono } from "geist/font/mono";
 import { baseUrl } from "@/utils/metadata";
 import { RootProvider } from "fumadocs-ui/provider";
 import type { Metadata } from "next/types";
-// import { SiteBanner } from "./components/banner";
+// import { SiteBanner } from "@/components/banner";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),

@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import { HomeLayout } from "fumadocs-ui/layouts/home";
 import { baseOptions } from "@/app/layout.config";
-import { Footer } from "@/app/components/footer";
+import { Footer } from "@/components/footer";
 
 export default function Layout({
   children,

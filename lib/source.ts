@@ -3,7 +3,7 @@ import { createMDXSource } from "fumadocs-mdx";
 import { loader } from "fumadocs-core/source";
 import { icons } from "lucide-react";
 import { createElement } from "react";
-import IconContainer from "@/app/components/icon";
+import IconContainer from "@/components/icon";
 
 export const source = loader({
   baseUrl: "/docs",
