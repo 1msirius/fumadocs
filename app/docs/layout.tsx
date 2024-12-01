@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { baseOptions, linkItems } from '@/app/layout.config';
+import { baseOptions, linkItems } from "@/app/layout.config";
 import { source } from "@/lib/source";
 import { DocsLayout } from "fumadocs-ui/layouts/docs";
 import { Slot } from "@radix-ui/react-slot";
@@ -19,8 +19,8 @@ const docsOptions = {
             <Slot
               className="bg-gradient-to-t from-fd-background/80 p-1 [&_svg]:size-5"
               style={{
-                color: `#89B4F9`,
-                backgroundColor: `rgba(137, 180, 249, 0.2)`,
+                color: "var(--icon-color)",
+                backgroundColor: "var(--icon-bg)",
               }}
             >
               {node.icon}
