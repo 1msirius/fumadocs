@@ -1,5 +1,5 @@
   <a href="https://www.opendeeplearning.xyz/" target="_blank" >
-    <img src="public/opendeeplearning.png" alt="OpenDeepLearning" width="450"/>
+    <img src="public/opendeeplearning.png" alt="OpenDeepLearning" width="500"/>
   </a>
 
 ## Installation
