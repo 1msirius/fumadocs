@@ -2,11 +2,9 @@
     <img src="public/opendeeplearning.png" alt="OpenDeepLearning" width="500"/>
   </a>
 
----
-
 ## Installation
 
-Ensure [pnpm](https://pnpm.io) is installed on your system. 
+Ensure [pnpm](https://pnpm.io) is installed on your system.
 
 ```
 # install the dependencies.
