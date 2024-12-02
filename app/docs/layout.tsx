@@ -19,8 +19,8 @@ const docsOptions = {
             <Slot
               className="bg-gradient-to-t from-fd-background/80 p-1 [&_svg]:size-5"
               style={{
-                color: "var(--icon-color)",
-                backgroundColor: "var(--icon-bg)",
+                color: `hsl(var(--primary))`,
+                backgroundColor: `hsl(var(--primary)/.3)`,
               }}
             >
               {node.icon}

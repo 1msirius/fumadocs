@@ -5,13 +5,9 @@
 :root {
   --primary: 220deg 91% 54%;
   /* --primary: 250 80% 54%; */
-  --icon-color: #1e66f4;
-  --icon-bg: rgba(30, 102, 244, 0.2);
 }
 
 .dark {
   --primary: 217deg 92% 76%;
   /* --primary: 250 100% 80%; */
-  --icon-color: #89b4f9;
-  --icon-bg: rgba(137, 180, 249, 0.2);
 }
