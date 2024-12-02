@@ -2,8 +2,6 @@
     <img src="public/opendeeplearning.png" alt="OpenDeepLearning" width="580"/>
   </a>
 
-Deep Learning is cool!
-
 ## Installation
 
 Ensure [pnpm](https://pnpm.io) is installed on your system. If not, follow the [installation instructions](https://pnpm.io/installation) on their website.
