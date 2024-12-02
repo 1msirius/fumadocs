@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 title: OpenDeepLearning
-message: Deep learning is incredibly cool!
+message: Deep learning is cool!
 type: software
 authors:
   - given-names: Sirius
-repository-code: "https://github.com/open-deeplearning/OpenDeepLearning"
+repository-code: "https://github.com/OpenDeepLearningAI/OpenDeepLearning"
 url: "https://www.opendeeplearning.xyz"
 abstract: >-
   A collaborative open-source community dedicated to

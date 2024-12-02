@@ -1,16 +1,8 @@
-<div align="center">
   <a href="https://www.opendeeplearning.xyz/" target="_blank" >
     <img src="public/opendeeplearning.png" alt="OpenDeepLearning" width="580"/>
   </a>
 
-<a href="https://github.com/OpenDeepLearningAI/OpenDeepLearning/stargazers"><img src="https://img.shields.io/github/stars/OpenDeepLearningAI/OpenDeepLearning" alt="Stars Badge"/></a>
-<a href="https://github.com/OpenDeepLearningAI/OpenDeepLearning/network/members"><img src="https://img.shields.io/github/forks/OpenDeepLearningAI/OpenDeepLearning" alt="Forks Badge"/></a>
-<a href="https://github.com/OpenDeepLearningAI/OpenDeepLearning/pulls"><img src="https://img.shields.io/github/issues-pr/OpenDeepLearningAI/OpenDeepLearning" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/OpenDeepLearningAI/OpenDeepLearning/issues"><img src="https://img.shields.io/github/issues/OpenDeepLearningAI/OpenDeepLearning" alt="Issues Badge"/></a>
-<a href="https://github.com/OpenDeepLearningAI/OpenDeepLearning/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/OpenDeepLearningAI/OpenDeepLearning?color=2b9348"></a>
-<a href="https://github.com/OpenDeepLearningAI/OpenDeepLearning/blob/master/LICENSE"><img src="https://img.shields.io/github/license/OpenDeepLearningAI/OpenDeepLearning?color=yello" alt="License Badge"/></a>
-
-</div>
+Deep Learning is cool!
 
 ## Installation
 
