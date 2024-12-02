@@ -2,17 +2,13 @@
     <img src="public/opendeeplearning.png" alt="OpenDeepLearning" width="500"/>
   </a>
 
+---
+
 ## Installation
 
-Ensure [pnpm](https://pnpm.io) is installed on your system. If not, follow the [installation instructions](https://pnpm.io/installation) on their website.
+Ensure [pnpm](https://pnpm.io) is installed on your system. 
 
 ```
-# download the site code with git
-git clone git clone https://github.com/OpenDeepLearningAI/OpenDeepLearning.git
-
-# Navigate into the project directory
-cd OpenDeepLearning
-
 # install the dependencies.
 pnpm install
 
